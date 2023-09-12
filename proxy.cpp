@@ -12,13 +12,22 @@
 #include <pthread.h>
 #include <unistd.h>
 
-/* Networking Libraries*/
+/* Networking Libraries */
 #include  <arpa/inet.h>
 #include <sys/socket.h>
 
 /* Defines */
 #define PORT 8080
 
+/* Function Declarations */
+int socketCreation();
+
 int main() {
 
+    return 0;
+}
+
+int socketCreation() {
+    struct sockaddr_in serverAddr;
+    return 0;
 }
